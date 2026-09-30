@@ -1,0 +1,22 @@
+import AboutMe from "../AboutMe";
+import ContactMe from "../Contact";
+import Footer from "../Footer";
+import HeroSection from "../HeroSection";
+import MyPortfolio from "../MyPortfolio";
+import MySkills from "../Skills";
+import SnakeGame from "../SnakeGame";
+import MyResume from "../Resume";
+
+export default function Home()
+{
+    return(
+        <>
+            <HeroSection />
+            <MySkills />
+            <AboutMe />
+            <MyPortfolio />
+            <ContactMe />
+            <Footer />
+        </>
+    );
+}

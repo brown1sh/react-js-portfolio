@@ -1,0 +1,43 @@
+{
+    "skills": [ {
+                    "id": "1", 
+                    "src": "./img/unity-logo.png", 
+                    "title": "Unity Development", 
+                    "description": "I have 2 years professional experience creating a Digital Twin of YVR Airport. It was a UI heavy application, but I also contributed to the optimisation of the Digital Twin using the Unity Profiler. This included batching draw calls, specifically by implementing sprite atlases into the program. I acquired further knowledge relating to Object-Oriented Programming in C#, ScriptableObjects and Prefab Workflows."
+                },
+                {
+                    "id": "2", 
+                    "src": "./img/backend-logo.png", 
+                    "title": "Back-End", 
+                    "description": "I Worked in conjunction with the backend team to digest data received and deliver it to the end user in a clear and concise manner. We used Azure cloud infrastructure, which exposed me to modern software delivery practices that can be utilised in future projects."
+                },
+                {
+                    "id": "3", 
+                    "src": "./img/ui-icon.png", 
+                    "title": "UI & UX Design", 
+                    "description": "Those 2 years involved working closely with UI/UX designers, who encouraged collaboration in order to create intuitive solutions to the problems we faced. This gave me valuable experience on how to create an engaging experience for the user that can translate to any software development process. Deploying to iOS, Windows and a web application also gave me plenty of experience in the considerations required for each platform."
+                }],
+                
+    "portfolio": [ {
+                    "id": "1", 
+                    "src": "./img/yvr-logo.png", 
+                    "title": "YVR Airport Digital Twin", 
+                    "description": "I worked for 2 years at YVR developing a Digital Twin of airport operations using Unity and C#. This involved representing data from real-world operational processes in a way that would benefit airport management on a daily basis. \n\nDriven by business requirements, I produced maintainable code that was capable of simulating complex workflows. The project integrated backend data through REST APIs and was supported by CI/CD pipelines and Azure cloud infrastructure. Working closely with UX designers, I helped implement new features that allowed the application to increase its adoption within the airport. \n\nI regularly had to utilise the Unity Profiler to help optimise the performance of the application, as there was a lack of cohesive design patterns at times that caused issues with scalability, and also produced unexpected bugs down the line. The product is currently not public facing, but I can talk more on my experiences and provide more context on request."
+                },
+                {
+                    "id": "2", 
+                    "src": "./img/uog-logo.png", 
+                    "title": "University Projects", 
+                    "description": "A selection of projects that I worked on during University. There are examples of C++ experience, C#, and also early attempts at learning web development. A lot of older projects that haven't been touched in a while. Some of the projects worked on include: \n\n- Space Invaders \n- Tiny Tanks \n- Procedural generation",
+                    "link": "View University Projects In Github",
+                    "linkAddress": "https://github.com/jackbrown109"
+                },
+                {
+                    "id": "3", 
+                    "src": "./img/github-logo.png", 
+                    "title": "Personal Projects", 
+                    "description": "A selection of projects that I have worked on in my spare time. I enjoy creating experiences, and especially reimagining games that I have a fondness for.",
+                    "link": "View Personal Projects In Github",
+                    "linkAddress": "https://github.com/brown1sh"
+                }] 
+}
