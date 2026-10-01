@@ -103,7 +103,7 @@ function NavBar({onPlayGame})
                     </li>
                     <li>
                         <Link
-                            className="navBar--active--content"
+                            activeClass="navBar--active--content"
                             onClick={() => {
                                 closeMenu();
                                 onPlayGame();
