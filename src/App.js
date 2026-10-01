@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./Pages/Home/NavBar"
 import Home from "./Pages/Home/Homescreen";
 import SnakeGame from "./Pages/Home/SnakeGame";
