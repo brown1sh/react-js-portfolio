@@ -324,10 +324,11 @@ h3
   border-radius: 10.6px;
   background: var(--darkgreyblue);
   min-height: 500px;
+  border-bottom: 4px solid transparent;
 }
 .skills--section--card:hover
 {
-  border-bottom: 4px solid var(--primary);
+  border-bottom-color: var(--primary);
 }
 .skills--section--card:hover.skills--section--card:hover.skills--section--description
 {
@@ -457,16 +458,20 @@ h3
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 900px;
+  min-height: 1000px;
   align-items: flex-start;
   gap: 32px;
   flex: 1 1 0;
   min-width: 0;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+
   background-color: var(--darkgreyblue);
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  border: 2px solid transparent;
 }
 .portfolio--section--card--link
 {
@@ -493,12 +498,18 @@ h3
   position: absolute;
   bottom: 20px;
   right: 20px;
-  text-decoration: none;
+
   display: flex;
   gap: 16px;
+
+  text-decoration: none;
   border-bottom: 1.33px solid var(--primary);
   padding-bottom: 10.6px;
   font-weight: 600;
+}
+.portfolio--section--card:hover
+{
+  border-color: var(--primary);
 }
 .portfolio--section--card:hover path
 {
@@ -922,6 +933,10 @@ input[type="checkbox"]
     justify-content: center;
     width: 100%;
   }
+  .portfolio--section--card
+  {
+    min-height: 0;
+  }
   .skills--section,
   .testimonial--section,
   .contact--section,
@@ -1012,6 +1027,15 @@ input[type="checkbox"]
   {
     display: flex;
     z-index: 200;
+  }
+  .navBar
+  {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navBar--logo
+  {
+    width: 300px;
   }
   .navBar--items 
   {
